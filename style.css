@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  max-width: 60%;
+  text-align: justify;
+  text-align-last: center;
+}
+
+#guess {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  display: block;
+  box-sizing: border-box;
+  width: 40%;
+  background: rgba(255, 255, 0, 0.2);
+  text-align: left;
+
+  min-height: 47px;
+
+  /* Match input element */
+  padding: 2px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.autocomplete {
+  font-style: italic;
+  font-weight: 700;
+}
+
+input {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  width: 40%;
+}
+
+ul {
+  text-align: left;
+  padding: 0;
+  list-style-position: inside;
+}
+
+div {
+  width: max-content;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  margin-top: 40px;
+}
+
+.search-results {
+  opacity: 0;
+  gap: 7px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.show.search-results {
+  opacity: 1;
+  width: 80vw;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.word-result {
+  font-size: 40px;
+  cursor: pointer;
+}
