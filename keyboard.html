@@ -200,6 +200,7 @@
         const inputBox = document.getElementById("input");
         let inputValue = inputBox.value;
         let substr = inputValue.slice(0, inputValue.length - 1);
+        localStorage.setItem("inputValue", substr);
         inputBox.value = substr;
         inputBox.focus();
       }

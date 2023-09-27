@@ -85,5 +85,15 @@ const addResult = (index) => {
   newSearchStr = newSearchStr + " " + resultsSubArr[index];
 
   searchInput.value = newSearchStr.trim() + " ";
+  localStorage.setItem("inputValue", newSearchStr.trim() + " ");
   searchInput.focus();
 };
+
+const updateInput = () => {
+  var resultField = document.getElementById("input");
+  const fieldValue = localStorage.getItem("inputValue");
+  resultField.value = fieldValue;
+  resultsSearch();
+};
+
+updateInput();

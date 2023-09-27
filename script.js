@@ -116,3 +116,7 @@ function searchIdiomList(search) {
 
   return "";
 }
+
+// document.addEventListener("click", function () {
+//   window.location.href = "keyboard.html";
+// });
