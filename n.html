@@ -178,10 +178,13 @@
         var resultField = document.getElementById("input");
 
         // Set the value of the form field to the id of the clicked button
-        resultField.value = resultField.value + id;
+        const fieldValue = resultField.value + id;
+        resultField.value = fieldValue;
+        localStorage.setItem("inputValue", fieldValue);
         var msg = new SpeechSynthesisUtterance();
         msg.text = id;
         msg.lang = "ja";
+        window.location.href = "keyboard.html";
       }
 
       function speak() {
@@ -198,6 +201,9 @@
 
         window.speechSynthesis.speak(msg);
         clearSuggestion();
+        localStorage.removeItem("inputValue");
+        // const inputBox = document.getElementById("input");
+        // inputBox.value = "";
       }
 
       function clearSuggestion() {
@@ -210,10 +216,10 @@
         const inputBox = document.getElementById("input");
         let inputValue = inputBox.value;
         let substr = inputValue.slice(0, inputValue.length - 1);
+        localStorage.setItem("inputValue", substr);
         inputBox.value = substr;
         inputBox.focus();
       }
-
       function goBack() {
         window.history.back();
       }
