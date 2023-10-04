@@ -48,15 +48,15 @@ ul {
   list-style-position: inside;
 }
 
-div {
+/* div {
   width: max-content;
-}
+} */
 .input {
   display: flex;
   flex-direction: column;
 }
 .row {
-  margin-top: 40px;
+  margin: 40px;
 }
 
 .search-results {
@@ -80,4 +80,29 @@ div {
 .word-result {
   font-size: 40px;
   cursor: pointer;
+}
+.button {
+  cursor: pointer;
+}
+.wrapper {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.hover-animation {
+  position: relative;
+}
+.hover-animation img {
+  position: absolute;
+  width: 100%;
+}
+.hover-image {
+  opacity: 0;
+}
+.hover-animation .hover-image {
+  transition: transform 0.1s ease;
+}
+.hover-animation .hover-image:hover {
+  opacity: 1;
+  /* transform: scale(0.79); */
 }
