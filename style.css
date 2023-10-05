@@ -29,6 +29,10 @@ p {
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 .autocomplete {
   font-style: italic;
@@ -56,15 +60,26 @@ ul {
   flex-direction: column;
 }
 .row {
-  margin: 40px;
 }
 
+.wrapper img {
+  padding: 0;
+  margin: 0;
+}
+.wrapper .button {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  padding: 0;
+}
 .search-results {
   opacity: 0;
   gap: 7px;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 10px;
+  padding: 0px;
   border-radius: 10px;
   font-weight: bold;
 }
@@ -72,7 +87,7 @@ ul {
   opacity: 1;
   width: 80vw;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -84,18 +99,15 @@ ul {
 .button {
   cursor: pointer;
 }
-.wrapper {
-  width: 100%;
-  margin-bottom: 50px;
-}
 
 .hover-animation {
   position: relative;
 }
 .hover-animation img {
   position: absolute;
-  width: 100%;
+  width: 85%;
 }
+
 .hover-image {
   opacity: 0;
 }
