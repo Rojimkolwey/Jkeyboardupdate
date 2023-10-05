@@ -20,11 +20,11 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-row-gap: 1px;
-        grid-column-gap: 0.1em;
+        grid-row-gap: 0px;
+        /* grid-column-gap: 0.1em; */
         /* border-style: solid; */
         width: 100vw;
-        height: calc(100vh - 25vh);
+        height: calc(100vh - 11vh);
         margin-left: 20px;
 
         width: 91vw;
@@ -35,8 +35,8 @@
 
       .button {
         /* max-width: 100px; */
-        width: 100%;
-        /* height: 100%; */
+        width: 90%;
+        /* height: 50%; */
         margin: 1px;
       }
     </style>
@@ -88,86 +88,258 @@
 
     <div class="container">
       <!--row 1-->
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/a1a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="あ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/a1b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="あ"
+          />
+        </div>
+      </div>
 
-      <img
-        class="button"
-        src="images/ka.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="あ"
-      />
-
-      <img
-        class="button"
-        src="images/ka_hover.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="い"
-      />
-      <img
-        class="button"
-        src="images/ka.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="う"
-      />
-      <img
-        class="button"
-        src="images/ka_hover.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="え"
-      />
-      <img
-        class="button"
-        src="images/ka.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="お"
-      />
-
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/a2a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="い"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/a2b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="い"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/a3a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="う"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/a3b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="う"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/a4a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="え"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/a4b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="え"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/a5a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="お"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/a5b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="お"
+          />
+        </div>
+      </div>
       <!-- 2nd row -->
 
-      <img class="button" src="images/white space.png" />
-
-      <img class="button" src="images/white space.png" alt="Image Button 4" />
-      <img class="button" src="images/white space.png" alt="Image Button 5" />
-      <img class="button" src="images/white space.png" alt="Image Button 2" />
-      <img class="button" src="images/white space.png" alt="Image Button 3" />
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/t6a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="だ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/t6b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="だ"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/t7a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="ぢ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/t7b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="ぢ"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/t8a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="づ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/t8b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="づ"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/t9a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="で"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/t9b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="で"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="images/t10a.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="ど"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="images/t10b.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="ど"
+          />
+        </div>
+      </div>
       <!-- 3rd row -->
 
-      <a href="keyboard.html"
-        ><img class="button" src="/images/khome.png" alt="Image Button 3"
-      /></a>
+      <!--4th row-->
+      <div class="wrapper">
+        <a href="keyboard.html"
+          ><img class="button" src="/images/khome.png" alt="Image Button 3"
+        /></a>
+      </div>
 
-      <img
-        class="button"
-        src="images/kspace.png"
-        alt="Image Button 3"
-        onclick="updateResult(this.id)"
-        id=" "
-      />
-      <img
-        class="button"
-        src="images/comma.png"
-        alt="Image Button 4"
-        onclick="updateResult(this.id)"
-        id=","
-      />
-      <img
-        class="button"
-        src="images/fullstop.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="."
-      />
-      <img
-        class="button"
-        src="images/question mark.PNG"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="?"
-      />
+      <div class="wrapper">
+        <img
+          class="button"
+          src="images/kspace.png"
+          alt="Image Button 3"
+          onclick="updateResult(this.id)"
+          id=" "
+        />
+      </div>
+
+      <div class="wrapper">
+        <img
+          class="button"
+          src="images/comma.png"
+          alt="Image Button 4"
+          onclick="updateResult(this.id)"
+          id=","
+        />
+      </div>
+
+      <div class="wrapper">
+        <img
+          class="button"
+          src="images/fullstop.png"
+          alt="Image Button 1"
+          onclick="updateResult(this.id)"
+          id="."
+        />
+      </div>
+
+      <div class="wrapper">
+        <img
+          class="button"
+          src="images/question mark.PNG"
+          alt="Image Button 1"
+          onclick="updateResult(this.id)"
+          id="?"
+        />
+      </div>
+
       <!--4th row-->
       <!--7th row-->
     </div>
