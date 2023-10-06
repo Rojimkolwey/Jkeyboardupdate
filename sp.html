@@ -20,20 +20,33 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-row-gap: 0px;
-        grid-row-gap: 0px !important;
-        /* grid-column-gap: 0.1em; */
-        /* border-style: solid; */
-        width: 100vw;
-        height: calc(100vh - 11vh);
+        grid-row-gap: -11px;
+        width: 98vw;
+        height: 90vh;
         margin-left: 20px;
-
-        /* width: 91vw; */
       }
 
-      .result_bar {
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
       }
 
+      .hover-animation {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+
+      .wrapper img {
+        display: block;
+        min-width: 100%;
+        height: 98% !important;
+        /* object-fit: contain; */
+      }
       .button {
         /* max-width: 100px; */
         width: 90%;
@@ -90,9 +103,7 @@
     <div class="container">
       <!--row 1-->
       <div class="wrapper">
-        <div class="hover-animation">
-          <img class="hover-image" class="button" />
-        </div>
+        <div class="hover-animation"></div>
       </div>
 
       <div class="wrapper">
@@ -156,9 +167,7 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="hover-animation">
-          <img />
-        </div>
+        <div class="hover-animation"></div>
       </div>
       <!-- 2nd row -->
 
@@ -229,6 +238,11 @@
         <div class="hover-animation"></div>
       </div>
       <!-- 3rd row -->
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
 
       <!--4th row-->
       <div class="wrapper">
