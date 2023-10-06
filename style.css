@@ -98,6 +98,7 @@ div {
 }
 .button {
   cursor: pointer;
+  width: 85% !important;
 }
 
 .hover-animation {
