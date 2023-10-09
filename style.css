@@ -59,8 +59,6 @@ ul {
   display: flex;
   flex-direction: column;
 }
-.row {
-}
 
 .wrapper img {
   padding: 0;
@@ -108,10 +106,15 @@ div {
   position: absolute;
   width: 85%;
 }
+.wrapper .hover-animation a img {
+  position: absolute;
+  width: 85%;
+}
 
 .hover-image {
   opacity: 0;
 }
+
 .hover-animation .hover-image {
   transition: transform 0.1s ease;
 }
