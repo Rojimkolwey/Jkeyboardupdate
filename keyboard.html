@@ -19,10 +19,10 @@
       .container {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-row-gap: -11px;
-        width: 98vw;
-        height: 90vh;
+        width: 99vw;
+        height: 70vh;
         margin-left: 20px;
       }
 
@@ -41,15 +41,15 @@
         height: 100%;
       }
 
-      a img {
+      .wrapper img {
         display: block;
-        min-width: 100%;
+        min-width: 98%;
         height: 98% !important;
         /* object-fit: contain; */
       }
       .button {
         /* max-width: 100px; */
-        width: 90%;
+        width: 80%;
         /* height: 50%; */
         margin: 1px;
       }
@@ -102,75 +102,325 @@
 
     <div class="container">
       <!--row 1-->
-      <a href="k.html">
-        <img class="button" src="hirigana/K.png" alt="Image Button 1" />
-      </a>
+      <div class="wrapper">
+        <div class="hover-animation">
+        <a href="vowels.html">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/vowels.png"
+            alt="Image Button 1"
+            onclick="location.href='vowels.html';"
+            id=" た"
+         </a>
+          </a>
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/vowelsa.png"
+            alt="Image Button 1"
+            onclick="location.href='vowels.html';"
+            id="た"
+          />
+        </div>
+      </div>
+      
+       <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/special.png"
+            alt="Image Button 1"
+            onclick="location.href='special.html';"
+            id="て"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/speciala.png"
+            alt="Image Button 1"
+            onclick="location.href='special.html';"
+            id="て"
+          />
+        </div>
+      </div>
 
-      <a href="s.html">
-        <img class="button" src="hirigana/S.png" alt="Image Button 1" />
-      </a>
-      <a href="t.html">
-        <img class="button" src="hirigana/T.png" alt="Image Button 1" />
-      </a>
-      <a href="n.html">
-        <img class="button" src="hirigana/N.png" alt="Image Button 1" />
-      </a>
-      <a href="h.html">
-        <img class="button" src="hirigana/H.png" alt="Image Button 1" />
-      </a>
-
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/K.png"
+            alt="Image Button 1"
+            onclick="location.href='K.html';"
+            id="ち"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ka.png"
+            alt="Image Button 1"
+            onclick="location.href='K.html';"
+            id="ち"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/S.png"
+            alt="Image Button 1"
+            onclick="location.href='S.html';"
+            id="つ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Sa.png"
+            alt="hirigana Button 1"
+            onclick="location.href='S.html';"
+            id="つ"
+          />
+        </div>
+      </div>
+     
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/T.png"
+            alt="Image Button 1"
+           onclick="location.href='T.html';"
+            id="と"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ta.png"
+            alt="Image Button 1"
+            onclick="location.href='T.html';"
+            id="と"
+          />
+        </div>
+      </div>
       <!-- 2nd row -->
 
-      <a href="m.html"
-        ><img class="button" src="hirigana/M.png" alt="Image Button 2"
-      /></a>
-
-      <a href="y.html"
-        ><img class="button" src="hirigana/Y.png" alt="Image Button 4"
-      /></a>
-      <a href="r.html"
-        ><img class="button" src="hirigana/R.png" alt="Image Button 5"
-      /></a>
-      <a href="sp.html"
-        ><img class="button" src="hirigana/special.png" alt="Image Button 2"
-      /></a>
-      <a href="a.html"
-        ><img class="button" src="hirigana/vowels.png" alt="Image Button 3"
-      /></a>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/N.png"
+            alt="Image Button 1"
+            onclick="location.href='N.html';"
+            id="だ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Na.png"
+            alt="Image Button 1"
+            onclick="location.href='N.html';"
+            id="だ"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/H.png"
+            alt="Image Button 1"
+            onclick="location.href='H.html';"
+            id="じ"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ha.png"
+            alt="Image Button 1"
+            onclick="location.href='H.html';"
+            id="じ"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/M.png"
+            alt="Image Button 1"
+            onclick="location.href='M.html';"
+            id="ず"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ma.png"
+            alt="Image Button 1"
+            onclick="location.href='M.html';"
+            id="ず"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/Y.png"
+            alt="Image Button 1"
+            onclick="location.href='Y.html';"
+            id="で"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ya.png"
+            alt="Image Button 1"
+            onclick="location.href='Y.html';"
+            id="で"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+            src="hirigana/R.png"
+            alt="Image Button 1"
+            onclick="location.href='R.html';"
+            id="ど"
+          />
+          <img
+            class="hover-image"
+            class="button"
+            src="hirigana/Ra.png"
+            alt="Image Button 1"
+            onclick="location.href='R.html';"
+            id="ぞ"
+          />
+        </div>
+      </div>
       <!-- 3rd row -->
+      <!-- <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div>
+      <div class="wrapper"></div> -->
 
-      <a href="keyboard.html"
-        ><img class="button" src="/images/khome.png" alt="Image Button 3"
-      /></a>
+       <!--4th row-->
+   <div class="wrapper">
+<div class="hover-animation">
+<a href="keyboard.html">
+<img
+class="normal-image"
+class="button"
+src="hirigana/keyboard.png"
+alt="Image Button 3"
+/>
+</a>
+<a href="keyboard.html">
+<img
+class="hover-image"
+class="button"
+src="hirigana/keyboarda.png"
+alt="Image Button 3"
+/>
+</a>
+</div>
+</div>
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+           src="hirigana/space.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id=" "
+          />
+          <img
+            class="hover-image"
+            class="button"
+           src="hirigana/spacea.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id=" "
+          />
+        </div>
+      </div>
+	  	  
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+           src="hirigana/comma.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id=","
+          />
+          <img
+            class="hover-image"
+            class="button"
+           src="hirigana/commaa.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id=","
+          />
+        </div>
+      </div>
+	  
 
-      <img
-        class="button"
-        src="images/kspace.png"
-        alt="Image Button 3"
-        onclick="updateResult(this.id)"
-        id=" "
-      />
-      <img
-        class="button"
-        src="images/comma.png"
-        alt="Image Button 4"
-        onclick="updateResult(this.id)"
-        id=","
-      />
-      <img
-        class="button"
-        src="images/fullstop.png"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="."
-      />
-      <img
-        class="button"
-        src="images/question mark.PNG"
-        alt="Image Button 1"
-        onclick="updateResult(this.id)"
-        id="?"
-      />
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+           src="hirigana/period.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="."
+          />
+          <img
+            class="hover-image"
+            class="button"
+           src="hirigana/perioda.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="."
+          />
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="hover-animation">
+          <img
+            class="button"
+            class="normal-image"
+           src="hirigana/questionmark.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="?"
+          />
+          <img
+            class="hover-image"
+            class="button"
+           src="hirigana/questionmarka.png"
+            alt="Image Button 1"
+            onclick="updateResult(this.id)"
+            id="?"
+          />
+        </div>
+      </div>
 
       <!--4th row-->
       <!--7th row-->
@@ -182,10 +432,13 @@
         var resultField = document.getElementById("input");
 
         // Set the value of the form field to the id of the clicked button
-        resultField.value = resultField.value + id;
+        const fieldValue = resultField.value + id;
+        resultField.value = fieldValue;
+        localStorage.setItem("inputValue", fieldValue);
         var msg = new SpeechSynthesisUtterance();
         msg.text = id;
         msg.lang = "ja";
+        window.location.href = "keyboard.html";
       }
 
       function speak() {
